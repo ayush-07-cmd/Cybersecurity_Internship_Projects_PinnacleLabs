@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Encryption</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Image Encryption Tool</h1>
+
+        <form method="POST" action="/encrypt" enctype="multipart/form-data">
+            <label>Select Image to Encrypt:</label>
+            <input type="file" name="image" required>
+            <button type="submit">Encrypt Image</button>
+        </form>
+
+        <form method="POST" action="/decrypt" enctype="multipart/form-data">
+            <label>Select Image to Decrypt:</label>
+            <input type="file" name="image" required>
+            <button type="submit">Decrypt Image</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+pycryptodome
+rsa
+flask
+cryptography
