@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Password Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Analyzer</h1>
+        <form method="POST">
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <button type="submit">Analyze</button>
+        </form>
+
+        {% if strength %}
+        <div class="result">
+            <h3 style="color: {{ color }}">Strength: {{ strength }}</h3>
+            <ul>
+                {% for tip in suggestions %}
+                <li>{{ tip }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
