@@ -1,0 +1,27 @@
+[2025-07-11 20:55:05] Algorithm: AES | Mode: encrypt
+Input: Hii "I am Ayush Kr Sharma"
+Output: ZWX24tXxMUuA28efiCnPdMdxdJz2U3x/PDKhf44zSNesixJt+0BpJMBNeq7oz49052EfUFsM9oKsbl8bcMISWQ==
+------------------------------------------------------------
+[2025-07-11 20:55:40] Algorithm: DES | Mode: encrypt
+Input: Hii "I am Ayush Kr Sharma"
+
+I am currently pursuing BCA
+Output: Jb5RhcD6dnUHjynuDFrnEWdK6EVsFPwmKo5Zmp00n+2KcxZoFd1Ii+SEAJf7mxqBcEIz7Ut8GOqSg3czcQIUmgBO2QR+5UDO
+------------------------------------------------------------
+[2025-07-11 20:56:27] Algorithm: RSA | Mode: encrypt
+Input: Hii "Yo"
+Output: SVFAfJQ5SJ7sP3Idxghp+If8aQGU7Yml5DLvF02Lmm/L9e3/YRitd5H49klgiL/9AZOTN0gwjp3McMnaK6OmIg==
+------------------------------------------------------------
+[2025-07-11 20:59:26] Algorithm: AES | Mode: decrypt
+Input: ZWX24tXxMUuA28efiCnPdMdxdJz2U3x/PDKhf44zSNesixJt+0BpJMBNeq7oz49052EfUFsM9oKsbl8bcMISWQ==
+Output: Hii "I am Ayush Kr Sharma"
+------------------------------------------------------------
+[2025-07-11 20:59:48] Algorithm: DES | Mode: decrypt
+Input: Jb5RhcD6dnUHjynuDFrnEWdK6EVsFPwmKo5Zmp00n+2KcxZoFd1Ii+SEAJf7mxqBcEIz7Ut8GOqSg3czcQIUmgBO2QR+5UDO
+Output: Hii "I am Ayush Kr Sharma"
+I am currently pursuing BCA
+------------------------------------------------------------
+[2025-07-11 21:00:15] Algorithm: RSA | Mode: decrypt
+Input: SVFAfJQ5SJ7sP3Idxghp+If8aQGU7Yml5DLvF02Lmm/L9e3/YRitd5H49klgiL/9AZOTN0gwjp3McMnaK6OmIg==
+Output: Hii "Yo"
+------------------------------------------------------------
